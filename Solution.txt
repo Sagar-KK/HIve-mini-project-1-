@@ -1,0 +1,13 @@
+
+3. List of all agents' names. 
+
+hive> select count (distinct agent) from agent_loging_report;
+
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 4.09 sec   HDFS Read: 64556 HDFS Write: 102 SUCCESS
+Total MapReduce CPU Time Spent: 4 seconds 90 msec
+OK
+50
+Time taken: 23.259 seconds, Fetched: 1 row(s)
+-------------------------------------------------------------------------------------------------------------
+
